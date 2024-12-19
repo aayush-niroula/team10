@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Website</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <!-- <div class="bground">
+        <h1><strong>BSC.CSIT</strong></h1>
+        <h5><strong>Bachelor Of Science In Computer Science And Information Technology</strong></h5>
+      </div> -->
+      <img src="images.png" alt="Logo" id="logo">
+      <h1 style="color: aliceblue;">Aims College</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#signin">Sign In</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="search-container">
+        <input type="text" id="search" placeholder="Search...">
+        <button onclick="searchFunction()">Search</button>
+      </div>
+    </div>
+  </header>
+  
+  <main>
+    <section id="home">
+      <h1>Welcome to Our College</h1>
+      <!-- <div class="header">
+        <!-- <img src="university-2704306_640.jpg" alt="college" id="college"> -->
+        <p>Explore everything about our college and its offerings.</p>
+      </div> -->
+    </section
+       
+      
+       
+    </section>
+
+
+
+    <!-- About section -->
+    <section id="about">
+      <div class="about-container">
+          <div class="about-text">
+              <h2>About Us</h2>
+              <p>
+                  Welcome to Our College! We are dedicated to providing a transformative educational experience 
+                  that empowers students to achieve their full potential. Our institution values academic excellence, 
+                  innovation, and inclusivity, ensuring a brighter future for all our students.
+              </p>
+              <p>
+                  Our campus offers state-of-the-art facilities, experienced faculty, and a vibrant community 
+                  where students can grow academically, socially, and personally.
+              </p>
+          </div>
+          <div class="about-image">
+              <img src="student.jpg" alt="College Image">
+          </div>
+      </div>
+      <hr>
+
+      <h2><strong>BSc.CSIT</strong></h2>
+      <p>B.Sc. CSIT (Bachelor of Science in Computer Science and Information Technology) is a specialized undergraduate program designed to provide students with a solid foundation in both computer science and information technology. This degree aims to equip students with the knowledge and skills required to excel in the rapidly evolving field of technology.</p>
+  <h2><strong>BHM</strong></h2>
+  <p>BHM (Bachelor of Hotel Management) is an undergraduate degree program that focuses on the principles and practices of the hospitality industry. It is designed to provide students with the skills and knowledge required to pursue a career in hotel management, tourism, and other hospitality-related sectors.</p>
+    <h2><strong>BBS</strong></h2>
+    <p>The Bachelor of Business Studies (BBS) is an undergraduate degree designed to equip students with practical and theoretical knowledge of business management. The curriculum usually includes courses on:
+
+    </p>
+    <hr>
+</section>
+
+  <!-- gallery section -->
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="student.jpg" alt="Gallery Image 1">
+        </div>
+        <div class="gallery-item">
+            <img src="images1.jpg" alt="Gallery Image 2">
+        </div>
+        <div class="gallery-item">
+            <img src="happy-graduates-five-college-standing-260nw-1382310047 (1).webp" alt="Gallery Image 3">
+        </div>
+        <div class="gallery-item">
+            <img src="group-of-positive-cheerful-students-using-laptop-and-doing-homework-F7JFK3.jpg" alt="Gallery Image 4">
+        </div>
+        
+    </div>
+</section>
+
+  
+    <!-- <section id="about">
+      <h2>About Us</h2>
+      <p>Get detailed information about the college, courses, and services we offer.</p>
+    </section> -->
+
+
+   <!-- contact secction  -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form action="#" method="POST" class="contact-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+  
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+  
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+  
+          <button type="submit">Submit</button>
+      </form>
+      <div class="contact-info">
+          <p>Email: info@college.edu</p>
+          <p>Phone: +123 456 7890</p>
+      </div>
+  </section>
+  
+  </main>
+</body>
+</html>
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Website</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <div class="bground">
+        <h1><strong>BSC.CSIT</strong></h1>
+        <h5><strong>Bachelor Of Science In Computer Science And Information Technology</strong></h5>
+      </div>
+      <img src="images.png" alt="Logo" id="logo">
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#signin">Sign In</a></li>
+        </ul>
+      </nav>
+      <div class="search-container">
+        <input type="text" id="search" placeholder="Search...">
+        <button onclick="searchFunction()">Search</button>
+      </div>
+    </div>
+  </header>
+  
+  <main>
+    <section id="home">
+      <h1>Welcome to Our College</h1>
+      <div class="header">
+        <img src="university-2704306_640.jpg" alt="college" id="college">
+        <p>Explore everything about our college and its offerings.</p>
+      </div>
+    </section>
+
+    <section id="profile">
+      <h2>Profile</h2>
+      <p>Learn more about the college's history and faculty.</p>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Get detailed information about the college, courses, and services we offer.</p>
+    </section>
+
+    <section id="signin">
+      <h2>Sign In</h2>
+      <p>Please enter your credentials to sign in to the portal.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html> -->
